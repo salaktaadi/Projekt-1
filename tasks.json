@@ -24,3 +24,18 @@
     "description": "felmérni hogy minden úgy legyen ahogy"
   }
 ]
+async function loadTasks() {
+    try {
+        const res = await fetch('tasks.json');
+        if (!res.ok) throw new Error(`HTTP hiba! Státusz: ${res.status}`);
+        allTasks = await res.json();
+        console.log("Sikeresen betöltve:", allTasks);
+    } catch (e) {
+        console.error("Hiba a tasks.json betöltésekor:", e);
+        allTasks = [];
+    }
+    updateStats();
+    renderCalendar();
+    renderTasks();
+    renderUpcomingTasks();
+}
