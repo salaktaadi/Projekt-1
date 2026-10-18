@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1792335589426,
+    "date": "2026-10-18",
+    "category": "Marketing & Kommunikáció",
+    "important": false,
+    "title": "projekt 1",
+    "description": "Hírdetni a céget"
+  },
+  {
+    "id": 1792335601092,
+    "date": "2026-10-18",
+    "category": "Adminisztráció & HR",
+    "important": false,
+    "title": "beléptetni az embereket",
+    "description": ""
+  },
+  {
+    "id": 1792335625550,
+    "date": "2026-10-20",
+    "category": "Általános céges feladat",
+    "important": true,
+    "title": "terepszemle",
+    "description": "felmérni hogy minden úgy legyen ahogy"
+  }
+]
